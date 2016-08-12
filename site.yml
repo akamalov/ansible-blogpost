@@ -1,0 +1,7 @@
+- name: Rolling Deploy
+  hosts: all
+  become: yes
+
+  roles:
+  - { role: ansible-galaxy-epel,   tags: ansible-galaxy-epel }
+  - { role: install-system,   tags: install-system }

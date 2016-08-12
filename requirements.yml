@@ -1,0 +1,3 @@
+- src: https://github.com/as-ideas/ansible-galaxy-epel.git
+  scm: git
+  version: v1.1

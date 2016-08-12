@@ -1,0 +1,8 @@
+.vagrant
+.molecule
+*.retry
+.cache
+*.log
+.idea
+*.iml
+ansible-galaxy-*

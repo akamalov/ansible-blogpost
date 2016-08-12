@@ -1,0 +1,21 @@
+- name: Install NTP
+  yum:
+    name: ntp
+    state: latest
+
+- name: Start and enable NTP service
+  service:
+    name: ntpd
+    state: started
+    enabled: yes
+
+- name: Install HTTPD
+  yum:
+    name: "httpd-{{ httpd_version }}"
+    state: installed
+
+- name: Start and enable HTTPD service
+  service:
+    name: httpd
+    state: started
+    enabled: yes
