@@ -1,3 +1,7 @@
 - src: https://github.com/as-ideas/ansible-galaxy-epel.git
   scm: git
   version: v1.1
+
+- src: https://github.com/as-ideas/ansible-galaxy-openjdk.git
+  scm: git
+  version: v1.0

@@ -4,4 +4,5 @@
 
   roles:
   - { role: ansible-galaxy-epel,   tags: ansible-galaxy-epel }
+  - { role: ansible-galaxy-openjdk,   tags: ansible-galaxy-openjdk }
   - { role: install-system,   tags: install-system }
